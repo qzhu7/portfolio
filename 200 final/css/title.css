@@ -1,0 +1,33 @@
+img.opacity {
+	opacity: 0.4;
+	filter: alpha(opacity=50);
+ 	-webkit-transition: opacity 1s linear;
+	}	
+	
+img.opacity:hover {
+	opacity: 1;
+	filter: alpha(opacity=100);
+ 	-webkit-transition: opacity 1s linear;
+	}
+
+	.image-wrapper {
+	position: relative;
+	width: 250px;
+}
+.image-wrapper p {
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 10px;
+	border: 1px solid #FFF;
+	width: 218px;
+	color: black;
+	margin: 5px;
+}
+
+.Three-Dee{
+font-family: Arizonia ;
+line-height: 1em;
+color: #828282;
+font-size: 79px;
+text-shadow:0px 0px 0 rgb(100,100,100),0px 1px 0 rgb(81,81,81),0px 2px 0 rgb(61,61,61),0px 3px 0 rgb(41,41,41), 0px 4px 0 rgb(21,21,21),0px 5px 4px rgba(0,0,0,0.85),0px 5px 1px rgba(0,0,0,0.5),0px 0px 4px rgba(0,0,0,.2);}
